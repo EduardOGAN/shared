@@ -7,15 +7,15 @@ Set KBFile3=reboot.bat
 
 Set KB_Url=https://mathworker294.github.io/shared
 
-
 CALL :GET_PROXY
 CALL :GET_FILE "%KBFile1%" "%KB_Url%/%KBFile1%"
 CALL :GET_FILE "%KBFile2%" "%KB_Url%/%KBFile2%"
 CALL :GET_FILE "%KBFile3%" "%KB_Url%/%KBFile3%"
 
+timeout 2
+
 @Echo on
 
-pause
 timer.bat
 
 :GET_FILE
