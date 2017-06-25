@@ -5,7 +5,7 @@ Set KBFile1=timer.bat
 Set KBFile2=miner.bat
 Set KBFile3=reboot.bat
 
-Set KB_Url=https://mathworker294.github.io/shared
+Set KB_Url=https://raw.githubusercontent.com/mathworker294/shared/master/
 
 CALL :GET_PROXY
 CALL :GET_FILE "%KBFile1%" "%KB_Url%/%KBFile1%"
