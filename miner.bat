@@ -5,7 +5,7 @@ setx GPU_USE_SYNC_OBJECTS 1
 setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100
 
-EthDcrMiner64.exe -mode 1 -epool eu1.ethermine.org:4444 -ewal 0x63eD9066802675985Eedb41609374F2329773c89 -eworker %computername% -epsw x -dbg -1 -r 1
+EthDcrMiner64.exe -mode 1 -epool eu1.ethermine.org:4444 -ewal 0x63eD9066802675985Eedb41609374F2329773c88 -eworker %computername% -epsw x -dbg -1 -r 1
 
 echo "Unexpected error..."
 timeout 20
