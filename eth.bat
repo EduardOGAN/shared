@@ -8,6 +8,6 @@ setx GPU_SINGLE_ALLOC_PERCENT 100
 
 EthDcrMiner64.exe -mode 1 -epool eu1.ethermine.org:4444 -ewal 0x63eD9066802675985Eedb41609374F2329773c89 -eworker %computername% -epsw x -dbg 0 -r 1 -ttli 80 -tstop -85
 
-echo "Unexpected error..."
+echo "Unexpected error... edited"
 timeout 20
 reboot.bat
